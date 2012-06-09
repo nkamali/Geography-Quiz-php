@@ -1,0 +1,39 @@
+// Author: Navid Kamali
+// Contains a list of quiz types. Each quiz type is associated with a sql query. 
+// This JSON file currently supports quiz questions for "Geography" related questions but in the future 
+//  can be expanded to support additional subjects.
+// filename: quiz.json
+
+var Quiz = {
+"subjects":
+[
+	{
+		"name": "geography",
+		"quiz_types" :
+		[
+			{
+				"type": "Capital",
+				"question": "What is the capital of XXX?",
+				"sql_query": "SELECT Name FROM faceappi_world.City where id = (SELECT Capital FROM faceappi_world.Country WHERE Name = 'XXX');"
+			},
+			{
+				"type": "Continent",
+				"question": "What continent contains XXX?",
+				"sql_query": "SELECT Continent FROM faceappi_world.Country WHERE Name = 'XXX';"
+			},
+			{
+				"type": "Language",
+				"question": "Name a language that they speak in XXX",
+				"sql_query": "SELECT Language FROM faceappi_world.CountryLanguage WHERE CountryCode = (SELECT Code FROM faceappi_world.Country WHERE Name = 'XXX');"
+			},
+			{
+				"type": "Large Cities",
+				"question": "Name a city in XXX that has over 1,000,000 people",
+				"sql_query": "SELECT Name FROM faceappi_world.City WHERE Population >1000000 AND CountryCode = (SELECT Code FROM faceappi_world.Country WHERE Name = 'XXX');"
+			}
+    ]
+	}
+]
+}
+
+			

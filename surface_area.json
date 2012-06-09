@@ -1,0 +1,8 @@
+// Author: Navid Kamali
+// Contains the sql query to get the surface area for the specified country out of the world database.
+// filename: surface_area.json
+
+var SurfaceArea = {
+"sql_query": "SELECT SurfaceArea FROM faceappi_world.Country where Name = 'XXX';"
+};
+

@@ -1,0 +1,11 @@
+// Author: Navid Kamali
+// Contains a list of countries that the Quiz app uses to randomly choose questions about.
+// Feel free to add more countries to this list below but first make sure that the country you want to add is not already in the list.
+// 
+// Many of the countries listed in world.Country database are pretty obscure, which would result in questions that no one is ever able to answer. 
+// In order to make the quiz doable, choose a subset of approximately 30 countries. 
+// These are stored in a JSON file that the program can randomly select from when generating a question.
+//
+// filename: some_countries.json
+
+var SomeCountries = ['United States', 'United Kingdom', 'France', 'Italy', 'Spain', 'Greece', 'Australia', 'Iran', 'Japan', 'China', 'India', 'Austria', 'Germany', 'Indonesia', 'Morocco', 'Portugal', 'Brazil', 'Argentina', 'Colombia', 'El Salvador', 'Peru', 'Chile', 'Mexico', 'Canada', 'Pakistan', 'Afghanistan', 'Romania', 'Turkey', 'Switzerland', 'Sweden', 'Ireland', 'Egypt', 'South Africa'];

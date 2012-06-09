@@ -1,0 +1,163 @@
+*{ margin:0; padding:0;}
+body{ font:100% normal Arial, Helvetica, sans-serif; background:#161712; height: 100%; margin: 0px; padding: 0px; }
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+
+html { height: 100% }
+
+#quiz {
+	margin:0 auto;
+	width:450px;
+	background:#222222;
+	position:relative;
+	top:50px;
+	border:1px solid #262626;
+}
+
+#quiz .heading { 
+	text-align:center;
+	line-height: 30px; 
+	height: 30px;
+	color:#fff;
+	text-transform:uppercase;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #161712;
+	border-top:1px solid #161712; 
+}
+
+#quiz h1 {
+	font-size:26px;
+}
+
+#quiz h2 {
+	font-size:12px;
+}
+
+#quiz label {
+	width:100%;
+	height:30px;
+	display: block;
+	background:#1C1C1C;
+	border-top:1px solid #262626;
+	border-bottom:1px solid #161712;
+	padding:10px 0 10px 0;
+}
+
+#quiz label.bigger {
+	height:60px;	
+}
+
+#quiz label.even_bigger {
+	height:180px;
+}
+
+#quiz label.bigger:hover {
+	background:#1C1C1C;
+}
+
+#quiz label.even_bigger:hover {
+	background:#1C1C1C;
+}
+
+#quiz label:hover {
+	background:#333;	
+}
+
+#quiz label:focus, #quiz label:active {
+	background:#333;	
+}
+
+#quiz label input {
+	display:block;
+	float:left;
+	width:30px;
+	margin:10px 0 0 30px;
+}
+
+#quiz label input[type='text'] {
+	width:120px;
+	color:#333;
+	clear:both;
+	margin:0 auto;
+	text-align:center;
+	height:20px;
+	background:lightgrey;
+	border:2px solid #006699;
+}
+
+#quiz label input[type='text']:hover {
+	border:2px solid #0066CC;
+}
+
+#quiz label input.right {
+	float:right;
+}
+
+#quiz label span {
+	display:block;
+	float:right;
+	color:#bbb;
+	font-size:16px;
+	float:right;
+	width:150px;
+	text-align:right;
+	padding:10px 10px 0 0;
+}
+
+#quiz label span.left {
+	float:left;
+	clear:both;
+	width:100%;
+	text-align:center;
+	padding:10px 0;
+}
+
+.user_input div {
+	padding-top: 27px;
+	width:250px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.user_input div a {
+	display:block;
+	color:#3399FF;
+	font-size: 12px;
+	text-decoration:none;
+	margin-bottom:10px;
+}
+
+.user_input div a:hover {
+	color:#66FFFF;
+}
+
+.user_input div input {
+	display:inline;
+	width:80px;
+	height:50px;
+	font-size:14px;
+}
+
+#user_input_exact_question {
+	display:none;
+	border:2px solid #063;
+}
+
+#quiz .button {
+	background:#006699;
+	border:0px;
+	height:24px;
+	width:100px;
+	padding:0;
+	margin:0 0 0 7px;
+	border-bottom: 1px double #003366;
+	border-top: 1px double #003366;
+	border-left:1px double #0066cc;
+	border-right:1px double #0066cc;
+}
+
+#quiz .button:hover {
+	background:#0066CC;
+}
+
+#map_canvas { height: 270px; width: 440px; border:5px solid lightgray; margin: 0 auto 5px;}
+
